@@ -11,7 +11,7 @@ const priceCategories: PriceCategory[] = [
     id: "ferrous",
     label: "Чёрный металл",
     items: [
-      { name: "Лом чёрного металла", price: "12", contamination: "5%" },
+      { name: "Лом чёрных металлов", price: "12 000", contamination: "5%" },
       { name: "Лом чёрного металла (жесть-банка, оцинковка) 12А", price: "10", contamination: "5%" },
     ],
   },
