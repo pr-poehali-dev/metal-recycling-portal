@@ -277,7 +277,7 @@ export default function Index() {
             </div>
             <div className="mt-12 pt-12 border-t border-gray-100 grid grid-cols-3 gap-6">
               <div>
-                <div className="text-2xl font-black text-brand-yellow">15+</div>
+                <div className="text-2xl font-black text-brand-yellow">5+</div>
                 <div className="text-xs text-gray-400 mt-0.5">лет на рынке</div>
               </div>
               <div>
