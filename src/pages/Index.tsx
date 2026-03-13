@@ -518,10 +518,12 @@ export default function Index() {
               <Icon name="Phone" size={16} className="text-gray-700" />
             </div>
             <div className="text-xs text-gray-400 uppercase tracking-wide mb-2">Телефон</div>
-            <a href="tel:+78001234567" className="font-bold text-gray-900 text-lg hover:text-gray-600 transition-colors block">
-              +7 (800) 123-45-67
+            <a href="tel:+79139132558" className="font-bold text-gray-900 text-lg hover:text-gray-600 transition-colors block">
+              +7 (913) 913-25-58
             </a>
-            <div className="text-xs text-gray-400 mt-1">Звонок бесплатный</div>
+            <a href="tel:+79028229888" className="font-bold text-gray-900 text-lg hover:text-gray-600 transition-colors block mt-1">
+              +7 (902) 822-98-88
+            </a>
           </div>
 
           <div className="border border-gray-100 p-6 hover:border-gray-300 transition-colors">
@@ -530,19 +532,19 @@ export default function Index() {
             </div>
             <div className="text-xs text-gray-400 uppercase tracking-wide mb-2">Адрес</div>
             <div className="font-bold text-gray-900 text-base leading-snug">
-              г. Москва,<br />ул. Промышленная, д. 15
+              г. Омск,<br />ул. 2-я Барнаульская, 105
             </div>
             <div className="text-xs text-gray-400 mt-1">Пункт приёма</div>
           </div>
 
           <div className="border border-gray-100 p-6 hover:border-gray-300 transition-colors">
             <div className="w-10 h-10 bg-gray-50 border border-gray-100 flex items-center justify-center mb-5">
-              <Icon name="Clock" size={16} className="text-gray-700" />
+              <Icon name="Mail" size={16} className="text-gray-700" />
             </div>
-            <div className="text-xs text-gray-400 uppercase tracking-wide mb-2">Режим работы</div>
-            <div className="font-bold text-gray-900 text-base">Пн – Вс</div>
-            <div className="text-sm text-gray-500 mt-1">с 8:00 до 20:00</div>
-            <div className="text-xs text-gray-400 mt-1">Без выходных</div>
+            <div className="text-xs text-gray-400 uppercase tracking-wide mb-2">Почта</div>
+            <a href="mailto:vtresurs55@mail.ru" className="font-bold text-gray-900 text-base hover:text-gray-600 transition-colors block">
+              vtresurs55@mail.ru
+            </a>
           </div>
         </div>
 
@@ -552,7 +554,7 @@ export default function Index() {
             <div className="text-sm text-gray-400">Позвоните — приедем в течение 2 часов</div>
           </div>
           <a
-            href="tel:+78001234567"
+            href="tel:+79139132558"
             className="inline-flex items-center gap-2 bg-brand-yellow text-brand-black font-semibold px-6 py-3 text-sm hover:opacity-90 transition-opacity shrink-0"
           >
             <Icon name="Phone" size={14} />
