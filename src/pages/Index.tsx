@@ -534,7 +534,9 @@ export default function Index() {
             <div className="font-bold text-gray-900 text-base leading-snug">
               г. Омск,<br />ул. 2-я Барнаульская, 105
             </div>
-            <div className="text-xs text-gray-400 mt-1">Пункт приёма</div>
+            <a href="https://go.2gis.com/2inUb" target="_blank" rel="noopener noreferrer" className="text-xs text-brand-yellow font-semibold mt-2 inline-block hover:underline">
+              Открыть на карте →
+            </a>
           </div>
 
           <div className="border border-gray-100 p-6 hover:border-gray-300 transition-colors">
