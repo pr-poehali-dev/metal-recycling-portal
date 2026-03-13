@@ -300,7 +300,7 @@ export default function Index() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/10 to-transparent" />
-            <div className="absolute bottom-8 right-8">
+            <div className="absolute top-8 left-8">
               <img src={LOGO_URL} alt="ВТОРРЕСУРС" className="h-28 w-auto object-contain drop-shadow-xl" />
             </div>
           </div>
