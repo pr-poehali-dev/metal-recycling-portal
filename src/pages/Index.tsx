@@ -300,9 +300,9 @@ export default function Index() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/10 to-transparent" />
-            <div className="absolute flex flex-col items-center gap-1" style={{ top: "38%", right: "18%" }}>
-              <img src={LOGO_URL} alt="Логотип ВТОРРЕСУРС" className="w-12 h-12 object-contain drop-shadow-lg" />
-              <span className="text-white font-black text-base tracking-widest drop-shadow-lg" style={{ textShadow: "0 1px 4px rgba(0,0,0,0.8)" }}>ВТОРРЕСУРС</span>
+            <div className="absolute bottom-10 right-8 flex flex-col items-center gap-2 bg-black/40 backdrop-blur-sm px-5 py-4 rounded">
+              <img src={LOGO_URL} alt="Логотип ВТОРРЕСУРС" className="w-16 h-16 object-contain" />
+              <span className="text-white font-black text-lg tracking-widest">ВТОРРЕСУРС</span>
             </div>
           </div>
         </div>
