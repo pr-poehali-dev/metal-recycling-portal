@@ -300,7 +300,10 @@ export default function Index() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/10 to-transparent" />
-
+            <div className="absolute bottom-10 right-8 flex flex-col items-center gap-2 bg-black/40 backdrop-blur-sm px-5 py-4 rounded">
+              <img src={LOGO_URL} alt="Логотип ВТОРРЕСУРС" className="w-16 h-16 object-contain" />
+              <span className="text-white font-black text-lg tracking-widest">ВТОРРЕСУРС</span>
+            </div>
           </div>
         </div>
       </section>
