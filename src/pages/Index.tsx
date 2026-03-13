@@ -257,7 +257,7 @@ export default function Index() {
             </div>
             <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight text-gray-900 mb-6">
               Покупаем<br />
-              <span className="text-gray-400">чёрный</span> и<br />
+              <span className="text-brand-yellow">чёрный</span> и<br />
               цветной металл
             </h1>
             <p className="text-gray-500 text-lg mb-10 max-w-md leading-relaxed">
@@ -266,7 +266,7 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-3">
               <button
                 onClick={() => scrollTo("order")}
-                className="bg-gray-900 text-white font-semibold px-8 py-4 hover:bg-gray-700 transition-colors text-sm"
+                className="bg-brand-yellow text-brand-black font-semibold px-8 py-4 hover:opacity-90 transition-opacity text-sm"
               >
                 Вызвать оценщика →
               </button>
@@ -279,15 +279,15 @@ export default function Index() {
             </div>
             <div className="mt-12 pt-12 border-t border-gray-100 grid grid-cols-3 gap-6">
               <div>
-                <div className="text-2xl font-black text-gray-900">15+</div>
+                <div className="text-2xl font-black text-brand-yellow">15+</div>
                 <div className="text-xs text-gray-400 mt-0.5">лет на рынке</div>
               </div>
               <div>
-                <div className="text-2xl font-black text-gray-900">2 000+</div>
+                <div className="text-2xl font-black text-brand-yellow">2 000+</div>
                 <div className="text-xs text-gray-400 mt-0.5">клиентов</div>
               </div>
               <div>
-                <div className="text-2xl font-black text-gray-900">300 т</div>
+                <div className="text-2xl font-black text-brand-yellow">300 т</div>
                 <div className="text-xs text-gray-400 mt-0.5">принимаем/мес.</div>
               </div>
             </div>
@@ -339,8 +339,8 @@ export default function Index() {
                 onClick={() => setActiveCategory(cat.id)}
                 className={`px-4 py-2 text-sm font-medium border transition-colors ${
                   activeCategory === cat.id
-                    ? "bg-gray-900 text-white border-gray-900"
-                    : "bg-white text-gray-600 border-gray-200 hover:border-gray-900 hover:text-gray-900"
+                    ? "bg-brand-yellow text-brand-black border-brand-yellow font-bold"
+                    : "bg-white text-gray-600 border-gray-200 hover:border-brand-yellow hover:text-brand-black"
                 }`}
               >
                 {cat.label}
@@ -550,14 +550,14 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="mt-8 p-6 bg-gray-900 text-white flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div className="mt-8 p-6 bg-brand-black text-white flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <div className="font-bold text-base mb-1">Нужна срочная оценка?</div>
             <div className="text-sm text-gray-400">Позвоните — приедем в течение 2 часов</div>
           </div>
           <a
             href="tel:+78001234567"
-            className="inline-flex items-center gap-2 bg-white text-gray-900 font-semibold px-6 py-3 text-sm hover:bg-gray-100 transition-colors shrink-0"
+            className="inline-flex items-center gap-2 bg-brand-yellow text-brand-black font-semibold px-6 py-3 text-sm hover:opacity-90 transition-opacity shrink-0"
           >
             <Icon name="Phone" size={14} />
             Позвонить сейчас

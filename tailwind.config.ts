@@ -23,6 +23,11 @@ export default {
 		},
 		extend: {
 			colors: {
+				brand: {
+					yellow: '#F5C000',
+					black: '#1A1A1A',
+					gray: '#6B7280',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
