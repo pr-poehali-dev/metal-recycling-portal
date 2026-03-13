@@ -228,10 +228,10 @@ export default function Index() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div></div>
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
-            <button onClick={() => scrollTo("prices")} className="hover:text-gray-900 transition-colors">Прайс-лист</button>
-            <button onClick={() => scrollTo("order")} className="hover:text-gray-900 transition-colors">Сдать лом</button>
-            <button onClick={() => scrollTo("contacts")} className="hover:text-gray-900 transition-colors">Контакты</button>
+          <nav className="hidden md:flex items-center gap-8 text-sm font-black text-gray-900">
+            <button onClick={() => scrollTo("prices")} className="hover:text-brand-yellow transition-colors border-b-2 border-transparent hover:border-brand-yellow pb-0.5">Прайс-лист</button>
+            <button onClick={() => scrollTo("order")} className="hover:text-brand-yellow transition-colors border-b-2 border-transparent hover:border-brand-yellow pb-0.5">Сдать лом</button>
+            <button onClick={() => scrollTo("contacts")} className="hover:text-brand-yellow transition-colors border-b-2 border-transparent hover:border-brand-yellow pb-0.5">Контакты</button>
           </nav>
           <button
             onClick={() => scrollTo("order")}
