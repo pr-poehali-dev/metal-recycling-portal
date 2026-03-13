@@ -222,7 +222,7 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900" style={{ fontFamily: "'Golos Text', sans-serif" }}>
+    <div className="min-h-screen bg-gray-300 text-gray-900" style={{ fontFamily: "'Golos Text', sans-serif" }}>
 
       {/* NAV */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
