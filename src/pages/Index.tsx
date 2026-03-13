@@ -228,7 +228,7 @@ export default function Index() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center">
-            <img src={LOGO_URL} alt="ВТОРРЕСУРС" className="w-16 h-16 object-contain bg-white rounded" />
+            <img src={LOGO_URL} alt="ВТОРРЕСУРС" className="w-24 h-24 object-contain bg-white rounded" />
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
             <button onClick={() => scrollTo("prices")} className="hover:text-gray-900 transition-colors">Прайс-лист</button>
