@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/5e6a6e0c-49ac-4376-9d0b-3f68c6a98f5d/files/bbb37ae6-e6f0-4211-bb0b-eb04fa351ab4.jpg";
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/5e6a6e0c-49ac-4376-9d0b-3f68c6a98f5d/files/7bf1f672-793b-47d6-ab67-63ff05499118.jpg";
 const LOGO_URL = "https://cdn.poehali.dev/files/c2c902fb-3fc2-4421-85d1-2f43221c34ae.jpg";
 
 type PriceItem = { name: string; price: string; contamination?: string; opt?: string };
