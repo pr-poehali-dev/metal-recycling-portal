@@ -512,7 +512,7 @@ export default function Index() {
           <h2 className="text-3xl md:text-4xl font-black text-gray-900 tracking-tight">Контакты</h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div className="border border-gray-100 p-6 hover:border-gray-300 transition-colors">
             <div className="w-10 h-10 bg-gray-50 border border-gray-100 flex items-center justify-center mb-5">
               <Icon name="Phone" size={16} className="text-gray-700" />
@@ -547,6 +547,16 @@ export default function Index() {
             <a href="mailto:vtresurs55@mail.ru" className="font-bold text-gray-900 text-base hover:text-gray-600 transition-colors block">
               vtresurs55@mail.ru
             </a>
+          </div>
+
+          <div className="border border-gray-100 p-6 hover:border-gray-300 transition-colors">
+            <div className="w-10 h-10 bg-gray-50 border border-gray-100 flex items-center justify-center mb-5">
+              <Icon name="Clock" size={16} className="text-gray-700" />
+            </div>
+            <div className="text-xs text-gray-400 uppercase tracking-wide mb-2">Режим работы</div>
+            <div className="font-bold text-gray-900 text-base">Пн – Вс</div>
+            <div className="text-sm text-gray-500 mt-1">с 9:00 до 19:00</div>
+            <div className="text-xs text-gray-400 mt-1">Без выходных</div>
           </div>
         </div>
 
