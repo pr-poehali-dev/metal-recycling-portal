@@ -230,7 +230,7 @@ export default function Index() {
             <div className="w-7 h-7 bg-gray-900 flex items-center justify-center">
               <Icon name="Layers" size={14} className="text-white" />
             </div>
-            <span className="font-bold text-lg tracking-tight">МеталлЛом</span>
+            <span className="font-bold text-lg tracking-tight">ВТОРРЕСУРС</span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
             <button onClick={() => scrollTo("prices")} className="hover:text-gray-900 transition-colors">Прайс-лист</button>
@@ -568,9 +568,9 @@ export default function Index() {
             <div className="w-5 h-5 bg-gray-900 flex items-center justify-center">
               <Icon name="Layers" size={10} className="text-white" />
             </div>
-            <span className="font-medium text-gray-600">МеталлЛом</span>
+            <span className="font-medium text-gray-600">ВТОРРЕСУРС</span>
           </div>
-          <div>© 2024 МеталлЛом. Все права защищены.</div>
+          <div>© 2024 ВТОРРЕСУРС. Все права защищены.</div>
           <div className="flex gap-6">
             <button onClick={() => scrollTo("prices")} className="hover:text-gray-900 transition-colors">Прайс</button>
             <button onClick={() => scrollTo("order")} className="hover:text-gray-900 transition-colors">Сдать лом</button>
