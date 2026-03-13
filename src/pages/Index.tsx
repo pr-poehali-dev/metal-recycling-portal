@@ -257,8 +257,8 @@ export default function Index() {
             </div>
             <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight text-gray-900 mb-6">
               Покупаем<br />
-              <span className="text-brand-yellow">чёрный</span> и<br />
-              цветной металл
+              чёрный и<br />
+              <span className="text-brand-yellow">цветной металл</span>
             </h1>
             <p className="text-gray-500 text-lg mb-10 max-w-md leading-relaxed">
               Выезд оценщика бесплатно. Честный вес. Расчёт на месте — наличными или переводом.
@@ -266,13 +266,13 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-3">
               <button
                 onClick={() => scrollTo("order")}
-                className="bg-brand-yellow text-brand-black font-semibold px-8 py-4 hover:opacity-90 transition-opacity text-sm"
+                className="bg-brand-black text-white font-semibold px-8 py-4 hover:opacity-80 transition-opacity text-sm"
               >
                 Вызвать оценщика →
               </button>
               <button
                 onClick={() => scrollTo("prices")}
-                className="border border-gray-300 text-gray-700 font-semibold px-8 py-4 hover:border-gray-900 transition-colors text-sm"
+                className="bg-brand-yellow text-brand-black font-semibold px-8 py-4 hover:opacity-90 transition-opacity text-sm"
               >
                 Смотреть прайс
               </button>
