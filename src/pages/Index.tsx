@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/5e6a6e0c-49ac-4376-9d0b-3f68c6a98f5d/files/c41d9a3a-1364-4b25-818c-d2868519eb54.jpg";
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/5e6a6e0c-49ac-4376-9d0b-3f68c6a98f5d/files/58295032-b72b-4693-aef9-bb28340f15ae.jpg";
 const LOGO_URL = "https://cdn.poehali.dev/files/c2c902fb-3fc2-4421-85d1-2f43221c34ae.jpg";
 
 type PriceItem = { name: string; price: string; contamination?: string; opt?: string };
@@ -300,9 +300,7 @@ export default function Index() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/10 to-transparent" />
-            <div className="absolute top-8 left-8">
-              <img src={LOGO_URL} alt="ВТОРРЕСУРС" className="h-28 w-auto object-contain drop-shadow-xl" />
-            </div>
+
           </div>
         </div>
       </section>
