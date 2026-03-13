@@ -242,7 +242,7 @@ export default function Index() {
             onClick={() => scrollTo("order")}
             className="bg-gray-900 text-white text-sm font-medium px-5 py-2.5 hover:bg-gray-700 transition-colors"
           >
-            Вызвать оценщика
+            Связаться с менеджером
           </button>
         </div>
       </header>
@@ -268,7 +268,7 @@ export default function Index() {
                 onClick={() => scrollTo("order")}
                 className="bg-brand-black text-white font-semibold px-8 py-4 hover:opacity-80 transition-opacity text-sm"
               >
-                Вызвать оценщика →
+                Связаться с менеджером →
               </button>
               <button
                 onClick={() => scrollTo("prices")}
@@ -499,7 +499,7 @@ export default function Index() {
                     type="submit"
                     className="w-full bg-gray-900 text-white font-semibold py-4 text-sm hover:bg-gray-700 transition-colors mt-2"
                   >
-                    Вызвать оценщика →
+                    Связаться с менеджером →
                   </button>
                   <p className="text-xs text-gray-400 text-center">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
                 </form>
